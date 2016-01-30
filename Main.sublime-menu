@@ -5,9 +5,9 @@
         [
 
             {
-                "id": "Minifier",
-                "caption": "Minify",
-                "command": "minify"
+                "id": "Minify_on_Save",
+                "caption": "Minify on Save",
+                "command": "minify_on_save"
             }
 
         ]
@@ -31,14 +31,6 @@
                                 "args":
                                 {
                                     "file": "${packages}/Minify on Save/Minify_on_save.sublime-settings"
-                                }
-                            },
-                            {
-                                "caption": "Minify on Save Settings – User",
-                                "command": "open_file",
-                                "args":
-                                {
-                                    "file": "${packages}/User/Minify_on_save.sublime-settings"
                                 }
                             }
                         ]
