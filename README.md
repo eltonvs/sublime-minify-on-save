@@ -4,7 +4,7 @@ It is a sublime plugin to minify .js and .css file when you save them.
 ## Quick start
 To use it, you just need to follow the steps below
 
-* Install [Minifier](https://www.google.com "Minifier") plugin on your Sublime
+* Install [Minifier](https://github.com/bistory/Sublime-Minifier "Minifier") plugin on your Sublime
 * Create a new plugin (`Tools > New Plugin...`) and copy/paste the `minify_on_save.py` code
 
 ### Minifier Recommended Configurations
