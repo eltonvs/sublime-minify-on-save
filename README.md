@@ -1,20 +1,22 @@
 # Sublime minify on save
 It is a sublime plugin to minify .js and .css file when you save them.
 
-## Quick start
-To use it, you just need to follow the steps below
+## Requirements
+To work, you need to have the [Minifier](https://github.com/bistory/Sublime-Minifier "Minifier") plugin already installed on your sublime.
 
-* Install [Minifier](https://github.com/bistory/Sublime-Minifier "Minifier") plugin on your Sublime
-* Create a new plugin (`Tools > New Plugin...`) and copy/paste the `minify_on_save.py` code
+## Installation
+a) Install `Minify on Save` via [Package Control](https://packagecontrol.io "Package Control") (**RECOMMENDED**):<br>
+    First install Package Control - [see installation instructions](https://packagecontrol.io/installation "Installation Instructions")<br>
+    Then, inside Sublime Text press `ctrl + shift + p` (`super + shift + p` on Mac OS X) and find `Package Control: Install Package` then press `Enter`.<br>
+    You just need to search for the `Minify on Save` package and install-it (pressing `Enter`).<br><br>
 
-### Minifier Recommended Configurations
-If you want a better experience, add this line below to your Minifier Settings file (`Preferences > Package Settings > Minifier > Minifier Settings - User`)
-```json
-{
-    "open_on_min": false
-}
-```
-This line just makes it not open the minified file when it is created.
+b) Alternatively, you can install Minify on Save from GitHub directly (NOT RECOMMENDED):<br>
+    _on Mac OS X_:<br>
+    `git clone git://github.com/eltonvs/sublime-minify-on-save.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Minify`<br>
+    Note: Replace `"Sublime\ Text\ 3"` with `"Sublime\ Text\ 2"` in the above command if you are using Sublime Text 2.<br>
+    _on Windows_:<br>
+    `git clone git://github.com/eltonvs/sublime-minify-on-save.git %APPDATA%\Sublime Text 3\Packages\Minify`<br>
+    Note: Replace `"Sublime Text 3"` with `"Sublime Text 2"` in the above command if you are using Sublime Text 2.<br>
 
 ## Contribute
 A lot of things can be improved on this plugin, make it better, feel free to contribute!
