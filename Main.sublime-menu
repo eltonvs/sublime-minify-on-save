@@ -1,18 +1,5 @@
 [
     {
-        "id": "tools",
-        "children":
-        [
-
-            {
-                "id": "Minify_on_Save",
-                "caption": "Minify on Save",
-                "command": "minify_on_save"
-            }
-
-        ]
-    },
-    {
         "id": "preferences",
         "children":
         [
